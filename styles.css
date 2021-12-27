@@ -2,7 +2,16 @@ button {
   padding: auto;
 }
 
-div {
+canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
@@ -17,9 +26,12 @@ ul {
   text-align: center;
   display: inline-block;
   position: absolute;
-  left: 48%;
-  transform: translate(-50%, 0%);
+
   line-height: 15px;
+}
+
+li {
+  padding-left: 50%;
 }
 
 input {
