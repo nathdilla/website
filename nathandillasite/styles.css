@@ -1,0 +1,63 @@
+button {
+  padding: auto;
+}
+
+div {
+  text-align: center;
+}
+
+html {
+  font-family: myFirstFont;
+  color: #141414;
+  line-height: 5px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 15px;
+}
+
+input {
+  border: black;
+  border-radius: 10px;
+  border-style: solid;
+}
+
+input:hover {
+  border: white;
+  border-radius: 10px;
+  border-style: solid;
+}
+
+body {
+  margin: 0;
+  background: rgb(36, 36, 36);
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+}
+
+h2 {
+  color: white;
+  line-height: 20px;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  width: 50%;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(BebasNeue-Regular.ttf);
+}
