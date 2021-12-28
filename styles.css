@@ -49,7 +49,6 @@ input:hover {
 body {
   margin: 0;
   background: rgb(36, 36, 36);
-  overflow: hidden;
 }
 
 h1 {
@@ -63,7 +62,7 @@ h2 {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 10px;
   width: 50%;
 }
@@ -71,4 +70,19 @@ footer {
 @font-face {
   font-family: myFirstFont;
   src: url(BebasNeue-Regular.ttf);
+}
+
+#coolclock {
+  background-image: url("space.jpg");
+  width: 355px;
+  height: 100px;
+  margin: auto;
+  color: white;
+  border-radius: 10px;
+  position: relative;
+}
+
+#tails {
+  position: absolute;
+  padding-top: 10px;
 }
